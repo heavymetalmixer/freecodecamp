@@ -1,0 +1,116 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta 
+      charset="utf-8" 
+      name="viewport" 
+      content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+  </head>
+  <body>
+    <header>
+      
+    </header>
+    <main>
+      <form id="survey-form">
+        <div>
+          <label id="name-label">Name</label>
+          <input id="name" type="text" placeholder="Enter your name" required /></input>
+        </div>
+        <div>
+          <label id="email-label">E-mail</label>
+          <input id="email" type="email" placeholder="Enter your E-mail" required ></input>
+        </div>
+        <div>
+          <label id="number-label">ID Number</label>
+          <input id="number" type="number" placeholder="Enter your ID number" required min="1" max="9999999999"></input>
+        </div>
+        <div>
+          <label id="option-list">What area of the Web Development do you wanna learn?</label>
+          <select name="options" id="dropdown">
+            <option value="">Choose one of the following options</option>
+            <option value="frontend">Frontend</option>
+            <option value="backend">Backend</option>
+            <option value="fullstack">Fullstack</option>
+            <option value="cyber-security">Cyber Security</option>
+            <option value="cloud">Cloud</option>
+            <option value="does-not-know">I don't know</option>
+          </select>
+        </div>
+        <label>What part of coding do you like the most?</label>
+        <div>
+          <input type="radio" name="taste" value="visual"></input>
+          <label>Visuals and User Interfaces</label>
+        </div>
+        <div>
+          <input type="radio" name="taste" value="logic"></input>
+          <label>Solving problems with logic</label>
+        </div>
+        <label>Which programming languages look the most interesting to you?</label>
+        <div>          
+          <input type="checkbox" value="c" ></input>
+          <label>C</label>
+        </div>
+        <div>          
+          <input type="checkbox" value="cpp" ></input>
+          <label>C++</label>
+        </div>
+        <div>          
+          <input type="checkbox" value="java" ></input>
+          <label>Java</label>
+        </div>
+        <div>          
+          <input type="checkbox" value="python" ></input>
+          <label>Python</label>
+        </div>
+        <div>          
+          <input type="checkbox" value="cs" ></input>
+          <label>C#</label>
+        </div>
+        <div>          
+          <input type="checkbox" value="php" ></input>
+          <label>PHP</label>
+        </div>
+        <div>          
+          <input type="checkbox" value="js" ></input>
+          <label>Javascript</label>
+        </div>
+        <div>          
+          <input type="checkbox" value="go" ></input>
+          <label>Go (A.K.A. Golang)</label>
+        </div>
+        <div>          
+          <input type="checkbox" value="rust" ></input>
+          <label>Rust</label>
+        </div>
+        <div>          
+          <input type="checkbox" value="dk" ></input>
+          <label>I'm not sure</label>
+        </div>
+        <div>
+          <label>If you selected "I'm not sure" in the previous section, please let us know what features you would like in a programming language:</label>
+          <textarea placeholder="As many as you want"></textarea>
+        </div>
+        <div>
+          <button id="submit" type="submit">Submit info</button>
+        </div>
+      </form>
+    </main>
+    <footer>
+    </footer>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
